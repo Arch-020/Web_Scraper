@@ -1,6 +1,7 @@
 
 import requests
 from bs4 import BeautifulSoup
+import urllib
 
 
 def get_content(url):
@@ -11,35 +12,37 @@ def get_content(url):
     # print(title)
     print(title.get_text())
 
-    # for link in soup.find_all('a'):
-    # print(link.get('href'))
-
-    sections = soup.find_all('section', class_="module module--content-block")
-    # print(sections)
-    container = soup.find_all('div', class_="module__content")
-    # print(container)
-
-    articles = soup.find_all(
-        'ul', class_="media-list media-list--fixed-height")
-    # print(articles)
+    filename = "urls.txt"
+    f = open(filename, "w")
 
     media_titles = soup.find_all('h3', class_="media__title")
     for title in media_titles:
-        print(title.text)
+        print(title.text.strip())
     # print(media_titles)
+    #print("title" + str(len(media_titles)))
 
     anchors = soup.find_all('a', class_="media__link")
-    all_links = set()
+
     for link in anchors:
-        if (link.get('href') != '#'):
-            linkText = "https://www.bbc.com/" + \
-                link.get('herf')  # Error while concatinating
-            all_links.add(link)
-            print(linkText)
-        # print(link.get('href'))
-    # print(anchors)
+        linkText = urllib.parse.urljoin(url, str(link.get('href')))
+        print(linkText)
+
+    # print(link.get('href'))
+    #print("a" + str(len(anchors)))
+
+    media_summary = soup.find_all('p', class_="media__summary")
+
+    for content in media_summary:
+        print(content.text.strip())
+        # print("summary" + str(len(media_summary)))
+
+    media_contents = soup.find_all('div', class_="media__content")
+    for article in media_contents:
+        f.write(str(article))
+    #print("content" + str(len(media_contents)))
+
+  # print(soup.prettify())
+  # print(soup.get_text())
 
 
-   # print(soup.prettify())
-   # print(soup.get_text())
 get_content("https://www.bbc.com/")
