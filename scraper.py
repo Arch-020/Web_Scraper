@@ -46,13 +46,19 @@ def get_content(url):
         #media_summary = content.p.text
         try:
             media_link = content.h3.a["href"]
-            m_link = url + media_link
+            if media_link.startswith(('http://', 'https://')):
+                m_link = media_link
+            else:
+                m_link = url + media_link
         except Exception as e:
             m_link = None
 
         try:
-            media_content = content.p.text.strip()
-            m_content = media_content
+            media_content = requests.get(m_link).text
+            m_soup = BeautifulSoup(media_content, 'lxml')
+
+            m_content = m_soup.find('article').text.strip()
+
         except Exception as e:
             m_content = None
 
@@ -64,6 +70,4 @@ def get_content(url):
 
     # print(soup.prettify())
   # print(soup.get_text())
-
-
 get_content("https://www.bbc.com")
