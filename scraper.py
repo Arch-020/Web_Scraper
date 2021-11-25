@@ -1,48 +1,69 @@
 
 import requests
 from bs4 import BeautifulSoup
-import urllib
+
+#import urllib
 
 
 def get_content(url):
-    req = requests.get(url)
-    soup = BeautifulSoup(req.content, 'html.parser')
+    req = requests.get(url).text
+    soup = BeautifulSoup(req, 'lxml')
 
-    title = soup.title
+    page_title = soup.title
     # print(title)
-    print(title.get_text())
+    print("Page Title: ", page_title.get_text())
 
     filename = "urls.txt"
     f = open(filename, "w")
+    '''
 
     media_titles = soup.find_all('h3', class_="media__title")
     for title in media_titles:
-        print(title.text.strip())
-    # print(media_titles)
-    #print("title" + str(len(media_titles)))
+        print("Title: ", title.text.strip())
 
-    anchors = soup.find_all('a', class_="media__link")
+    media_links = soup.find_all('a', class_="media__link")
 
-    for link in anchors:
+    for link in media_links:
         linkText = urllib.parse.urljoin(url, str(link.get('href')))
-        print(linkText)
+        print("URL: ", linkText)
 
-    # print(link.get('href'))
-    #print("a" + str(len(anchors)))
+    media_contents = soup.find_all('p', class_="media__summary")
 
-    media_summary = soup.find_all('p', class_="media__summary")
+    for summary in media_contents:
+        print("Content: ", summary.text.strip())
 
-    for content in media_summary:
-        print(content.text.strip())
-        # print("summary" + str(len(media_summary)))
+    '''
 
     media_contents = soup.find_all('div', class_="media__content")
     for article in media_contents:
         f.write(str(article))
     #print("content" + str(len(media_contents)))
+    f.close()
 
-  # print(soup.prettify())
+    for content in media_contents:
+        m_title = content.h3.text.strip()
+        #media_link = content.h3.a["href"]
+        #media_summary = content.p.text
+        try:
+            media_link = content.h3.a["href"]
+            m_link = url + media_link
+        except Exception as e:
+            m_link = None
+
+        try:
+            media_content = content.p.text.strip()
+            m_content = media_content
+        except Exception as e:
+            m_content = None
+
+        print("Title: ", m_title)
+        print("URL: ", m_link)
+        print("Content: ", m_content)
+
+        print()
+
+    # print(soup.prettify())
   # print(soup.get_text())
 
 
-get_content("https://www.bbc.com/")
+get_content("https://www.bbc.com")
