@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 
 class BbcSpider(scrapy.Spider):
     name = 'bbc'
+    allowed_domains = ["www.bbc.com"]
     start_urls = ['https://www.bbc.com']
 
     def parse(self, response):
@@ -11,32 +12,42 @@ class BbcSpider(scrapy.Spider):
         media_contents = soup.find_all('div', class_="media__content")
 
         for content in media_contents:
-            m_title = content.h3.text.strip()
-            #media_link = content.h3.a["href"]
-            #media_summary = content.p.text
 
             try:
                 media_link = content.h3.a["href"]
                 if media_link.startswith(('http://', 'https://')):
-                    m_link = media_link
+                    media_link = media_link
+
                 else:
                     url = "https://www.bbc.com"
-                    m_link = url + media_link
+                    media_link = url + media_link
+
             except Exception as e:
-                m_link = None
+                media_link = None
 
             try:
 
-                m_content = content.p.text.strip()
+                url = response.urljoin(media_link)
+
+                yield scrapy.Request(url, callback=self.parse_dir_contents)
 
             except Exception as e:
-                m_content = None
+                continue
 
-            yield {
+    def parse_dir_contents(self, response):
 
-                "Title: ": m_title,
-                "URL: ": m_link,
-                "Content: ":  m_content,
+        m_soup = BeautifulSoup(response.body, 'lxml')
+        data = {}
+        media_title = m_soup.title.get_text()
+        data['Title'] = media_title
+        #print("Title: ", med_title)
 
+        m_link = m_soup.find('meta', property="og:url")
+        data['URL'] = m_link
+        # print(med_link)
 
-            }
+        m_content = m_soup.find('article').text.strip()
+        data['Content'] = m_content
+        #print("Content: ", m_content)
+
+        yield data
