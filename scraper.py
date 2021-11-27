@@ -2,44 +2,68 @@
 import requests
 from bs4 import BeautifulSoup
 
+#import urllib
+
 
 def get_content(url):
-    req = requests.get(url)
-    soup = BeautifulSoup(req.content, 'html.parser')
+    req = requests.get(url).text
+    soup = BeautifulSoup(req, 'lxml')
 
-    title = soup.title
+    page_title = soup.title
     # print(title)
-    print(title.get_text())
+    print("Page Title: ", page_title.get_text())
 
-    # for link in soup.find_all('a'):
-    # print(link.get('href'))
-
-    sections = soup.find_all('section', class_="module module--content-block")
-    # print(sections)
-    container = soup.find_all('div', class_="module__content")
-    # print(container)
-
-    articles = soup.find_all(
-        'ul', class_="media-list media-list--fixed-height")
-    # print(articles)
+    filename = "urls.txt"
+    f = open(filename, "w")
+    '''
 
     media_titles = soup.find_all('h3', class_="media__title")
     for title in media_titles:
-        print(title.text)
-    # print(media_titles)
+        print("Title: ", title.text.strip())
 
-    anchors = soup.find_all('a', class_="media__link")
-    all_links = set()
-    for link in anchors:
-        if (link.get('href') != '#'):
-            linkText = "https://www.bbc.com/" + \
-                link.get('herf')  # Error while concatinating
-            all_links.add(link)
-            print(linkText)
-        # print(link.get('href'))
-    # print(anchors)
+    media_links = soup.find_all('a', class_="media__link")
+
+    for link in media_links:
+        linkText = urllib.parse.urljoin(url, str(link.get('href')))
+        print("URL: ", linkText)
+
+    media_contents = soup.find_all('p', class_="media__summary")
+
+    for summary in media_contents:
+        print("Content: ", summary.text.strip())
+
+    '''
+
+    media_contents = soup.find_all('div', class_="media__content")
+    for article in media_contents:
+        f.write(str(article))
+    #print("content" + str(len(media_contents)))
+    f.close()
+
+    for content in media_contents:
+        m_title = content.h3.text.strip()
+        #media_link = content.h3.a["href"]
+        #media_summary = content.p.text
+        try:
+            media_link = content.h3.a["href"]
+            m_link = url + media_link
+        except Exception as e:
+            m_link = None
+
+        try:
+            media_content = content.p.text.strip()
+            m_content = media_content
+        except Exception as e:
+            m_content = None
+
+        print("Title: ", m_title)
+        print("URL: ", m_link)
+        print("Content: ", m_content)
+
+        print()
+
+    # print(soup.prettify())
+  # print(soup.get_text())
 
 
-   # print(soup.prettify())
-   # print(soup.get_text())
-get_content("https://www.bbc.com/")
+get_content("https://www.bbc.com")

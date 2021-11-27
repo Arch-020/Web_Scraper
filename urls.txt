@@ -1,0 +1,359 @@
+<div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/live/world-europe-59406632" rev="hero1|headline">
+                                                                    Efforts to identify 27 people who drowned in Channel                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            The victims, including a young girl, were trying to reach the UK when their boat sank near Calais.                                                    </p>
+<a class="media__tag tag tag--news" href="/news/world/europe" rev="hero1|source">Europe</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/uk-59412329" rev="hero2|headline">
+                                                                    UK and France agree need to act after boat deaths                                                            </a>
+</h3>
+<a class="media__tag tag tag--news" href="/news/uk" rev="hero2|source">UK</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-us-canada-59411030" rev="hero3|headline">
+                                                                    Three men guilty of murdering black jogger in US                                                            </a>
+</h3>
+<a class="media__tag tag tag--news" href="/news/world/us_and_canada" rev="hero3|source">US &amp; Canada</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/business-59409508" rev="hero4|headline">
+                                                                    JPMorgan boss regrets China remarks amid backlash                                                            </a>
+</h3>
+<a class="media__tag tag tag--business" href="/news/business" rev="hero4|source">Business</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="https://www.bbc.com/worklife/article/20211119-why-more-people-are-saying-yall" rev="hero5|headline">
+                                                                    The global spread of an Americanism                                                            </a>
+</h3>
+<a class="media__tag tag tag--worklife" href="http://www.bbc.com/worklife" rev="hero5|source">Worklife</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-us-canada-59410920" rev="news|headline">
+                                                                    What a young jogger's murder exposes about America                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            Ahmaud Arbery died in a "modern-day lynching" - locals say the spectre of racism is always present.                                                    </p>
+<a class="media__tag tag tag--news" href="/news/world/us_and_canada" rev="news|source">US &amp; Canada</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-europe-59400539" rev="news|headline">
+                                                                    Sweden's first female PM resigns on day one                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            Magdalena Andersson resigns after her coalition partner quit the government in a row over the budget.                                                    </p>
+<a class="media__tag tag tag--news" href="/news/world/europe" rev="news|source">Europe</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-europe-59402658" rev="news|headline">
+                                                                    Russian troop build-up: View from Ukraine front line                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            BBC correspondent Abdujalil Abdurasulov visits eastern Ukraine as soldiers watch Russia's nearby movements.                                                    </p>
+<a class="media__tag tag tag--news" href="/news/world/europe" rev="news|source">Europe</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/sport/live/football/59413086" rev="sport|headline">
+                                                                    Champions League reaction &amp; Premier League news conferences                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            Reaction to Wednesday's Champions League action, plus build-up to Europa League and Premier League games.                                                    </p>
+<a class="media__tag tag tag--sport" href="/sport/football" rev="sport|source">Football</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/sport/football/59411459" rev="sport|headline">
+                                                                    'Man City everything Pochettino's individuals are not'                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            Manchester City outplayed Paris St-Germain and with Mauricio Pochettino struggling to impose his style the Manchester United talk will not go away, writes Phil McNulty.                                                    </p>
+<a class="media__tag tag tag--sport" href="/sport/football/european" rev="sport|source">European Football</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/sport/football/59392475" rev="sport|headline">
+                                                                    Thiago and Salah on target in Reds win                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            Liverpool maintain their 100% record in the Champions League this season by defeating Porto at Anfield.                                                    </p>
+<a class="media__tag tag tag--sport" href="/sport/football/european" rev="sport|source">European Football</a>
+</div><div class="media__content"> <h3>Is a vegan diet healthier than eating meat and dairy?</h3> </div><div class="media__content"> <h3>The mysterious life and death of the 2,500-year-old 'Ukok Princess'</h3> </div><div class="media__content"> <h3>The simple thing that instantly changes our social status</h3> </div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-asia-india-59412299" rev="regional-news|headline">
+                                                                    Missing India police officer reappears after months                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            Parambir Singh, the former police chief of Mumbai, is facing multiple charges of extortion.                                                    </p>
+<a class="media__tag tag tag--indian-news" href="/news/world/asia/india" rev="regional-news|source">India</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-asia-india-59401179" rev="regional-news|headline">
+                                                                    India court: Forced oral sex not aggravated assault                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            There’s been outrage in India after the Allahabad high court reduces the jail term of a sex offender.                                                    </p>
+<a class="media__tag tag tag--indian-news" href="/news/world/asia/india" rev="regional-news|source">India</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="https://www.bbc.com/sport/cricket/scorecard/ECKO51919" rev="regional-news|headline">
+                                                                    Live: India vs New Zealand                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            India bat first in the Test series opener against the Kiwis.                                                    </p>
+<a class="media__tag tag tag--indian-news" href="http://www.bbc.com/news/world/asia/india" rev="regional-news|source">India</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-asia-india-59398367" rev="regional-news|headline">
+                                                                    Fear and hope after anti-Muslim violence in India                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            Weeks after mosques and Muslim properties were attacked, life is slowly getting back to normal in Tripura.                                                    </p>
+<a class="media__tag tag tag--indian-news" href="/news/world/asia/india" rev="regional-news|source">India</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="https://www.bbc.com/worklife/article/20210518-the-hidden-load-how-thinking-of-everything-holds-mums-back" rev="editors-picks|headline">
+                                                                    How gender equality is moving backwards                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            How 'thinking of everything' at home leaves mothers behind                                                    </p>
+<a class="media__tag tag tag--worklife" href="http://www.bbc.com/worklife" rev="editors-picks|source">Worklife</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="https://www.bbc.com/culture/article/20211123-the-masterpieces-stolen-by-the-nazis" rev="editors-picks|headline">
+                                                                    The masterpieces stolen by the Nazis                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            What the journeys of looted artworks can tell us                                                    </p>
+<a class="media__tag tag tag--culture" href="http://www.bbc.com/culture" rev="editors-picks|source">Culture</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="https://www.bbc.com/future/article/20211115-climate-change-can-russia-leave-fossil-fuels-behind" rev="editors-picks|headline">
+                                                                    Will Russia ever leave oil behind?                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            Fossil fuels are a source of not only wealth in Russia, but deep national pride                                                    </p>
+<a class="media__tag tag tag--future" href="http://www.bbc.com/future" rev="editors-picks|source">Future</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="https://www.bbc.com/travel/article/20211124-georgias-forgotten-wine-region" rev="editors-picks|headline">
+                                                                    Georgia's forgotten wine region                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            The community is harvesting wine for the first time in 400 years                                                    </p>
+<a class="media__tag tag tag--travel" href="https://www.bbc.com/travel" rev="editors-picks|source">Travel</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="https://www.bbc.com/news/world-us-canada-59405585" rev="editors-picks|headline">
+                                                                    Pentagon announces task force to study UFO reports                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            It follows a June report that could not explain dozens of "unidentified aerial phenomena"                                                    </p>
+<a class="media__tag tag tag--us" href="/news/world/us_and_canada" rev="editors-picks|source">US</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="https://www.bbc.com/news/world-us-canada-59407121" rev="editors-picks|headline">
+                                                                    US museum thief, 78, jailed a day for old heists                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            Thomas Gavin apologised "for all this trouble" from his antique robberies in the 60s and 70s                                                    </p>
+<a class="media__tag tag tag--us" href="/news/world/us_and_canada" rev="editors-picks|source">US</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="https://www.bbc.com/news/uk-england-beds-bucks-herts-59386261" rev="editors-picks|headline">
+                                                                    Bronze Age hoard found by girl, 13, on third trip                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            On her third metal-detecting trip, Milly found a Bronze Age hoard                                                    </p>
+<a class="media__tag tag tag--uk-news" href="http://www.bbc.com/news/uk" rev="editors-picks|source">UK</a>
+</div><div class="media__content"> <h3>The living architecture of India</h3> </div><div class="media__content"> <h3>A neglected protein-rich 'superfood'</h3> </div><div class="media__content"> <h3>Bangladesh's unusual use for oysters</h3> </div><div class="media__content">
+<a class="media__tag tag tag--business" href="/news/business" rev="primary-special-features|source">Business</a>
+<h3 class="media__title">
+<a class="media__link" href="https://www.bbc.com/news/business-59299051" rev="primary-special-features|headline">
+                                                                    From poverty in Ordsall to becoming a billionaire                                                            </a>
+</h3>
+</div><div class="media__content">
+<a class="media__tag tag tag--future" href="http://www.bbc.com/future" rev="primary-special-features|source">Future</a>
+<h3 class="media__title">
+<a class="media__link" href="https://www.bbc.com/future/article/20211115-how-morocco-led-the-world-on-clean-solar-energy" rev="primary-special-features|headline">
+                                                                    How Morocco went big on solar energy                                                            </a>
+</h3>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/entertainment-arts-59409077" rev="video|headline">
+                                                                    Beatles outtakes in new Peter Jackson film                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            The Lord of The Rings director has restored more than 50 hours of footage.                                                    </p>
+<a class="media__tag tag tag--videos" href="/news/entertainment_and_arts" rev="video|source">Entertainment &amp; Arts</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/entertainment-arts-59409077" rev="video|headline">
+                                                                    Beatles outtakes in new Peter Jackson film                                                            </a>
+</h3>
+<a class="media__tag tag tag--videos" href="/news/entertainment_and_arts" rev="video|source">Entertainment &amp; Arts</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-asia-59101411" rev="video|headline">
+                                                                    What happens when you try to swim in floating...                                                            </a>
+</h3>
+<a class="media__tag tag tag--videos-must-see" href="/news/world/asia" rev="video|source">Asia</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-59087311" rev="video|headline">
+                                                                    ICYMI: A baby rhino and million dollar...                                                            </a>
+</h3>
+<a class="media__tag tag tag--videos-must-see" href="/news/world" rev="video|source">World</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-europe-59410982" rev="video|headline">
+                                                                    Inside Dunkirk's new migrant camp                                                            </a>
+</h3>
+<a class="media__tag tag tag--videos" href="/news/world/europe" rev="video|source">Europe</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/uk-59410862" rev="video|headline">
+                                                                    Windrush: 'I had to eat people's leftovers'                                                            </a>
+</h3>
+<a class="media__tag tag tag--videos" href="/news/uk" rev="video|source">UK</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/uk-40358825" rev="video|headline">
+                                                                    Boris Johnson struggles in interview                                                            </a>
+</h3>
+<a class="media__tag tag tag--" href="/news/uk" rev="video|source">UK</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-us-canada-40362067" rev="video|headline">
+                                                                    Ready for the total solar eclipse?                                                            </a>
+</h3>
+<a class="media__tag tag tag--" href="/news/world/us_and_canada" rev="video|source">US &amp; Canada</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-australia-40365981" rev="video|headline">
+                                                                    Koalas 'face extinction' in parts of...                                                            </a>
+</h3>
+<a class="media__tag tag tag--" href="/news/world/australia" rev="video|source">Australia</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-middle-east-40366136" rev="video|headline">
+                                                                    Video 'shows Mosul mosque's destruction'                                                            </a>
+</h3>
+<a class="media__tag tag tag--" href="/news/world/middle_east" rev="video|source">Middle East</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-asia-40360168" rev="video|headline">
+                                                                    Indonesia's female 'devil wheel' riders                                                            </a>
+</h3>
+<a class="media__tag tag tag--" href="/news/world/asia" rev="video|source">Asia</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-us-canada-59410870" rev="video|headline">
+                                                                    Key moments from US black jogger murder trial                                                            </a>
+</h3>
+<a class="media__tag tag tag--" href="/news/world/us_and_canada" rev="video|source">US &amp; Canada</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/10462520" rev="video|headline">
+                                                                    One-minute World News                                                            </a>
+</h3>
+<a class="media__tag tag tag--" href="/news/video_and_audio" rev="video|source">Video</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/uk-england-london-59403257" rev="video|headline">
+                                                                    'In a perfect world we wouldn't need...                                                            </a>
+</h3>
+<a class="media__tag tag tag--" href="/news/england/london" rev="video|source">London</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-59394170" rev="video|headline">
+                                                                    Rescuing the Afghanistan girls' football team                                                            </a>
+</h3>
+<a class="media__tag tag tag--" href="/news/world" rev="video|source">World</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/technology-59373968" rev="more-bbc|headline">
+                                                                    Tolkien estate blocks JRR Token crypto-currency                                                            </a>
+</h3>
+<p class="media__summary">
+                                                            Lawyers representing the estate said the product, launched in August, infringed the author's...                                                    </p>
+<a class="media__tag tag tag--technology" href="/news/technology" rev="more-bbc|source">Technology</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/entertainment-arts-59387182" rev="more-bbc|headline">
+                                                                    Peter Jackson on how Tolkien stopped a Beatles LOTR film                                                            </a>
+</h3>
+<a class="media__tag tag tag--entertainment" href="/news/entertainment_and_arts" rev="more-bbc|source">Entertainment &amp; Arts</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-europe-59399702" rev="more-bbc|headline">
+                                                                    Germany's Scholz seals deal to end Merkel era                                                            </a>
+</h3>
+<a class="media__tag tag tag--science" href="/news/world/europe" rev="more-bbc|source">Europe</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="https://www.bbc.co.uk/news/business-59386433" rev="more-bbc|headline">
+                                                                    Europe's largest bike-maker sees sales soar as more of us cycle                                                            </a>
+</h3>
+<a class="media__tag tag tag--business" href="http://www.bbc.com/news/business/" rev="more-bbc|source">Business</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/live/world-59398909" rev="more-bbc|headline">
+                                                                    Europe 'once again' epicentre of Covid, WHO warns                                                            </a>
+</h3>
+<a class="media__tag tag tag--health" href="/news/world" rev="more-bbc|source">World</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/science-environment-59307390" rev="more-bbc|headline">
+                                                                    Universities to combat race bias in research                                                            </a>
+</h3>
+<a class="media__tag tag tag--science" href="/news/science_and_environment" rev="more-bbc|source">Science &amp; Environment</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/entertainment-arts-59399069" rev="more-bbc|headline">
+                                                                    Raheem Sterling to guest edit Radio 4's Today                                                            </a>
+</h3>
+<a class="media__tag tag tag--entertainment" href="/news/entertainment_and_arts" rev="more-bbc|source">Entertainment &amp; Arts</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="https://www.bbc.com/news/business-58971281" rev="secondary-special-features|headline">
+                                                                    Can South Africa embrace green energy from the sun?                                                            </a>
+</h3>
+<a class="media__tag tag tag--business" href="/news/business" rev="secondary-special-features|source">Business</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="https://www.bbc.com/future/article/20211117-does-cheese-really-give-you-vivid-dreams" rev="secondary-special-features|headline">
+                                                                    Are cheese dreams real?                                                            </a>
+</h3>
+<a class="media__tag tag tag--future" href="http://www.bbc.com/future" rev="secondary-special-features|source">Future</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-asia-china-59397737" rev="world-in-pictures1|headline">
+                                                                    Photographer sorry for 'small eyes' Dior picture                                                            </a>
+</h3>
+<a class="media__tag tag tag--in-pictures" href="/news/world/asia/china" rev="world-in-pictures1|source">China</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/uk-wales-59337844" rev="world-in-pictures2|headline">
+                                                                    Images of despair and hope from around the world                                                            </a>
+</h3>
+<a class="media__tag tag tag--in-pictures" href="/news/wales" rev="world-in-pictures2|source">Wales</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/uk-england-manchester-59344065" rev="world-in-pictures3|headline">
+                                                                    Bowie and Queen photographer Mick Rock dies                                                            </a>
+</h3>
+<a class="media__tag tag tag--in-pictures" href="/news/entertainment_and_arts" rev="world-in-pictures3|source">Entertainment &amp; Arts</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/world-africa-59333941" rev="world-in-pictures4|headline">
+                                                                    Africa's top shots: Horns, shields and bomb-proof suits                                                            </a>
+</h3>
+<a class="media__tag tag tag--in-pictures" href="/news/world/africa" rev="world-in-pictures4|source">Africa</a>
+</div><div class="media__content">
+<h3 class="media__title">
+<a class="media__link" href="/news/uk-england-essex-59260239" rev="world-in-pictures5|headline">
+                                                                    Remembrance poppies glow in night photographs                                                            </a>
+</h3>
+<a class="media__tag tag tag--in-pictures" href="/news/england/essex" rev="world-in-pictures5|source">Essex</a>
+</div>
