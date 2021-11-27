@@ -2,72 +2,57 @@
 import requests
 from bs4 import BeautifulSoup
 
-#import urllib
+
+def fetch_page(url):
+    response = requests.get(url, timeout=5).text
+    soup = BeautifulSoup(response, 'lxml')
+    return soup
 
 
-def get_content(url):
-    req = requests.get(url).text
-    soup = BeautifulSoup(req, 'lxml')
-
-    page_title = soup.title
-    # print(title)
-    print("Page Title: ", page_title.get_text())
-
-    filename = "urls.txt"
-    f = open(filename, "w")
-    '''
-
-    media_titles = soup.find_all('h3', class_="media__title")
-    for title in media_titles:
-        print("Title: ", title.text.strip())
-
-    media_links = soup.find_all('a', class_="media__link")
-
-    for link in media_links:
-        linkText = urllib.parse.urljoin(url, str(link.get('href')))
-        print("URL: ", linkText)
-
-    media_contents = soup.find_all('p', class_="media__summary")
-
-    for summary in media_contents:
-        print("Content: ", summary.text.strip())
-
-    '''
-
-    media_contents = soup.find_all('div', class_="media__content")
-    for article in media_contents:
-        f.write(str(article))
-    #print("content" + str(len(media_contents)))
-    f.close()
-
-    for content in media_contents:
-        m_title = content.h3.text.strip()
-        #media_link = content.h3.a["href"]
-        #media_summary = content.p.text
+def parse_page(soup):
+    results = {}
+    page_title = soup.title.get_text()
+    print("Page Title: ", page_title)
+    for link in soup.find_all("a"):
         try:
-            media_link = content.h3.a["href"]
-            if media_link.startswith(('http://', 'https://')):
-                m_link = media_link
-            else:
-                m_link = url + media_link
-        except Exception as e:
-            m_link = None
+            results[link['href']] = link.text.strip()
+        except:
+            continue
+    return results
 
-        try:
-            media_content = requests.get(m_link).text
-            m_soup = BeautifulSoup(media_content, 'lxml')
 
-            m_content = m_soup.find('article').text.strip()
+def visit(url):
+    try:
+        soup = fetch_page(url)
+    except:
+        print(f"Cannot fetch {url}")
+        return {}
+    return parse_page(soup)
 
-        except Exception as e:
-            m_content = None
 
-        print("Title: ", m_title)
-        print("URL: ", m_link)
-        print("Content: ", m_content)
+def crawl(seed_url, MAX_URLS=100):
+    frontier = {}
+    visited = {}
 
-        print()
+    frontier[seed_url] = ""
 
-    # print(soup.prettify())
-  # print(soup.get_text())
-get_content("https://www.bbc.com")
+    while len(frontier) > 0 and len(visited) < MAX_URLS:
+        url, _ = frontier.popitem()
+        print(f"Visiting {url}")
+        new_urls = visit(url)
+        print(
+            f"Total {len(new_urls)} discovered, fronter size is {len(frontier)}, pages visited {len(visited)}")
+        for candidate_url, _ in new_urls.items():
+            if candidate_url not in visited:
+                if candidate_url[0] == "/":
+                    candidate_url = f"{seed_url}{candidate_url}"
+                frontier[candidate_url] = ""
+        visited[url] = ""
+
+    with open("url.txt", "w") as output:
+        for current in visited:
+            output.write(current + "\n")
+
+
+if __name__ == "__main__":
+    crawl("https://www.bbc.com")
