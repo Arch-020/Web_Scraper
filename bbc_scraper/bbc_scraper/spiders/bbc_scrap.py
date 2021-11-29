@@ -25,14 +25,9 @@ class BbcSpider(scrapy.Spider):
             except Exception as e:
                 media_link = None
 
-            try:
+            url = response.urljoin(media_link)
 
-                url = response.urljoin(media_link)
-
-                yield scrapy.Request(url, callback=self.parse_dir_contents)
-
-            except Exception as e:
-                continue
+            yield scrapy.Request(url, callback=self.parse_dir_contents)
 
     def parse_dir_contents(self, response):
 
